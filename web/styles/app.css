@@ -1,0 +1,39 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app > img {
+  transition-duration: .5s;
+} 
+
+#app > h1 {
+  color: #995dff;
+  margin-top: -5px;
+  transition-duration: .5s;
+}
+
+#app > h2 {
+  align-self: flex-start;
+  margin-top: 64px;
+}
+
+#app > p {
+  align-self: flex-start;
+  text-align: justify;
+  width: 512px;
+  margin-top: -5px;
+}
+
+#app .placeholder {
+  color: #7c7c8a;
+  user-select: none;
+}
+
+#app > h1:hover{
+  scale: 110%;
+}
+#app img:hover {
+  scale: 130%;
+}
